@@ -7,10 +7,10 @@ Bản nộp bài theo **Option B (GitHub + HuggingFace Hub)**.
 ## 🔗 Liên kết Dự án (Links)
 
 > [!IMPORTANT]
-> Vui lòng thay thế `<your-github-username>` và `<your-hf-username>` bằng thông tin tài khoản thực tế của bạn sau khi hoàn thành các bước hướng dẫn bên dưới.
+> Vui lòng thay thế `yuHXmi` và `xhuy8248` bằng thông tin tài khoản thực tế của bạn sau khi hoàn thành các bước hướng dẫn bên dưới.
 
-* **GitHub Repository**: `https://github.com/<your-github-username>/Day21-Track3-Finetuning-LLMs-LoRA-QLoRA`
-* **HuggingFace Hub Model (Adapter)**: `https://huggingface.co/<your-hf-username>/qwen2.5-3b-vi-lab21-r16`
+* **GitHub Repository**: `https://github.com/yuHXmi/Day21-Track3-Finetuning-LLMs-LoRA-QLoRA`
+* **HuggingFace Hub Model (Adapter)**: `https://huggingface.co/xhuy8248/qwen2.5-3b-vi-lab21-r16`
 
 ---
 
@@ -38,7 +38,7 @@ Bản nộp bài theo **Option B (GitHub + HuggingFace Hub)**.
    git branch -M main
    
    # Liên kết với repo GitHub của bạn
-   git remote add origin https://github.com/<your-github-username>/Day21-Track3-Finetuning-LLMs-LoRA-QLoRA.git
+   git remote add origin https://github.com/yuHXmi/Day21-Track3-Finetuning-LLMs-LoRA-QLoRA.git
    
    # Đẩy code lên
    git push -u origin main
@@ -70,7 +70,7 @@ Vì adapter r16 đã được lưu thành công trên Colab tại đường dẫ
    
    # Giả định đường dẫn lưu trữ adapter r16 trên Colab là:
    ADAPTER_PATH = "/content/lab21_lora_t4/r16"
-   HUB_REPO_ID = "<your-hf-username>/qwen2.5-3b-vi-lab21-r16"
+   HUB_REPO_ID = "xhuy8248/qwen2.5-3b-vi-lab21-r16"
    
    # 4. Tải lên adapter
    from huggingface_hub import HfApi

@@ -12,7 +12,7 @@
 - **max_seq_length**: 1024 (Qua phân tích phân phối độ dài token của dữ liệu: p50 = 227, p95 = 562, p99 = 704. Chúng tôi chọn `max_seq_length = 1024` để bao phủ hoàn toàn ngưỡng p95 và làm tròn lên lũy thừa của 2 để tối ưu hóa bộ nhớ phần cứng).
 - **GPU**: Tesla T4 (VRAM khả dụng: 14.56 GB) trên môi trường Google Colab Free.
 - **Training cost**: ~$0.07 (Tổng thời gian huấn luyện của cả 3 mô hình là 12.4 phút với đơn giá ước tính của GPU T4 là $0.35/giờ).
-- **HF Hub link** (Option B): `https://huggingface.co/<your-hf-username>/qwen2.5-3b-vi-lab21-r16` (Vui lòng thay thế `<your-hf-username>` bằng tên tài khoản HuggingFace thực tế của bạn).
+- **HF Hub link** (Option B): `https://huggingface.co/xhuy8248/qwen2.5-3b-vi-lab21-r16` (Vui lòng thay thế `<your-hf-username>` bằng tên tài khoản HuggingFace thực tế của bạn).
 
 ---
 
@@ -37,7 +37,7 @@ Dưới đây là bảng thống kê kết quả thực nghiệm huấn luyện 
 
 Đồ thị Loss được trích xuất từ quá trình huấn luyện mô hình Baseline (`r=16`):
 
-![Loss Curve baseline r=16](loss_curve.png)
+![Loss Curve baseline r=16](results/loss_curve.png)
 
 ### Quan sát & Nhận xét:
 * **Tính ổn định**: Hàm Loss trên tập huấn luyện (train loss) giảm đều đặn từ **1.6143** ở bước 5 xuống còn **1.3942** ở bước 65 cuối cùng. Điều này chứng minh thuật toán tối ưu hóa hoạt động tốt và mô hình đang hội tụ ổn định.
