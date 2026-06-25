@@ -29,7 +29,7 @@ Dưới đây là bảng thống kê kết quả thực nghiệm huấn luyện 
 
 > [!NOTE]
 > * Tỷ lệ phần trăm trong cột **Trainable Params** biểu thị số tham số huấn luyện so với tổng tham số của mô hình gốc (~3 tỷ tham số).
-> * Chỉ số **Perplexity (PPL)** được tính theo công thức: $PPL = \exp(\text{eval\_loss})$. PPL càng thấp chứng tỏ mô hình có khả năng dự đoán từ tiếp theo càng tốt trên tập đánh giá.
+> * Chỉ số **Perplexity (PPL)** được tính theo công thức: $PPL = \exp(\text{eval\loss})$. PPL càng thấp chứng tỏ mô hình có khả năng dự đoán từ tiếp theo càng tốt trên tập đánh giá.
 
 ---
 
